@@ -6,3 +6,4 @@
 | --- | --- | --- | --- | --- |
 | 1 | Google Homepage | Completed | HTML, CSS | [Yes](https://rawgit.com/kalpetros/TheOdinProject/master/google_homepage/index.html) |
 | 2 | Project Euler | Completed | Javascript, HTML, CSS | [Yes](https://rawgit.com/kalpetros/TheOdinProject/master/project_euler/index.html) |
+| 3 | Etch A Sketch | Completed | Javascript (jQuery), HTML, CSS | [Yes](https://rawgit.com/kalpetros/TheOdinProject/master/etch_a_sketch/index.html) |

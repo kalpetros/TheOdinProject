@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Petros Kal's solution for the Etch A Sketch Project -->
+<!-- The Odin Project -->
+<!-- http://www.theodinproject.com/web-development-101/javascript-and-jquery -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Etch A Sketch</title>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+    	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    	<!-- External Styles -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">   
+    </head>
+    <body>
+    	<div class="wrapper">
+    		<div class="content">
+                <div class="instructions">
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Drag your cursor around the Etch-a-Sketch to create fun pictures!</li>
+                        <li>Click Default to go back to the default color.</li>
+                        <li>Click Random Color to switch to a random color.</li>
+                        <li>Click Tutti Frutti for awesomness!</li>
+                        <li>Click Clear to clear the board.</li>
+                    </ol>
+                    <p>Created by Petros Kal. (<a href="https://github.com/kalpetros">kalpetros</a>)</p>
+                </div>
+                <div class="etch">
+                    <div class="etchheader">
+                        <p>Etch A Sketch</p>
+                    </div>
+                    <div class="etchbody">
+                    </div>
+                    <button class="btn default">Default</button>
+                    <button class="btn random">Random Color</button>
+                    <button class="btn tutti">Tutti Frutti</button>
+                    <button class="btn gridsize">Grid Size</button>
+                    <button class="btn clear">Clear</button>
+                </div>
+    		</div>	
+    	</div>
+    </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/etch.js"></script>
+</html>
