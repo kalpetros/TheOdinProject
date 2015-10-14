@@ -1,0 +1,174 @@
+/* Petros Kal's solution for the Google Homepage Project
+The Odin Project
+http://www.theodinproject.com/web-development-101/html-css */
+
+/*Text*/
+a {
+	font-family: Arial;
+	font-size: 0.9em;
+	color: #2b2b2b;
+	text-decoration: none;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+/*Body*/
+body {
+	background-color: white;
+}
+/*Header*/
+nav {
+	overflow: auto;
+}
+	nav li {
+		display: inline;
+		text-align: center;
+		float: right;
+		padding: 15px;
+		padding-top: 25px;
+		padding-left: 5px;
+	}
+#profile {
+	height: 30px;
+	width: 30px;
+	border-radius: 150px;
+	margin-top: -15%;
+}
+/*Content*/
+.content {
+	height: 90%;
+	width: 100%;
+	position: absolute;
+}
+	#con_left {
+		height: 100%;
+		width: 33.3%;
+		float: left;
+	}
+	#con_mid {
+		height: 100%;
+		width: 33.3%;
+		float: left;
+	}
+	#con_right {
+		height: 100%;
+		width: 33.3%;
+		float: left;
+	}
+#google_logo {
+	height: 100px;
+	width: 19em;
+	margin-top: 30%;
+	margin-left: 28%;
+}
+form {
+	width: 100%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+#search_box {
+	margin-left: 0%;
+}
+#text_box {
+	position: relative;
+	height: 30px;
+	width: 100%;
+	line-height:27px;
+    text-indent:10px; 
+    font-family:arial, sans-serif; 
+    font-size:1em; 
+    color:#333; 
+    background: #fff; 
+    border:solid 1px #d9d9d9; 
+    border-top:solid 1px #c0c0c0;
+}
+#buttons {
+	margin-top: 2%;
+}
+	#button_box_left {
+		width: 50%;
+		float: left;
+	}
+	#button_box_right {
+		width: 50%;
+		float: right;
+	}
+	.buttons {
+		display: inline-block;
+		background-color: #f5f5f5;
+		background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+		background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+		background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+		background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+		background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+		color: #444;	
+		border: 1px solid #dcdcdc;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		cursor: default;
+		font-size: 11px;
+		font-weight: bold;
+		text-align: center;
+		height: 27px;
+		width: 30%;
+		line-height: 27px;
+		padding: 0 8px;
+		text-decoration: none;
+		overflow: hidden;
+	}
+	.buttons:hover {
+		border: 1px solid #c6c6c6;
+	}
+	#buttons a {
+		text-decoration: none;
+	}
+	#buttons a:hover {
+		text-decoration: none;
+	}
+	#search_button {
+		margin-right: 5%;
+		float: right;
+	}
+	#lucky_button {
+		margin-left: 5%;
+		float: left;
+	}
+/*Footer*/
+footer {
+	background: #ededed;
+	height: 40px;
+	width: 100%;	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-shadow: 0px -0.8px 0px #c6c6c6;
+	overflow: hidden;
+}
+	#att_left  {
+		float: left;
+		height: 100%;
+		width: 50%;
+	}
+	#att_right {
+		float: right;
+		height: 100%;
+		width: 50%;	
+	}
+	#att_left li {
+		display: inline;
+		text-align: center;
+		float: left;
+		padding: 12px;
+		margin-left: 1%;
+	}
+	#att_right li {
+		display: inline;
+		text-align: center;
+		float: right;
+		padding: 12px;
+		margin-right: 1%;
+	}
