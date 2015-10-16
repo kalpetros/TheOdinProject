@@ -1,3 +1,4 @@
+<% if logged_in? %>
 <h1><%= @article.title %></h1>
 <p>
   <% if @article.image.exists? %>
@@ -14,6 +15,7 @@
     <%= link_to tag.name, tag_path(tag) %>
   <% end %>
 </p>
+<% end %>
 
 <h3>Comments (<%= @article.comments.size %>)</h3>
 <%= render partial: 'articles/comment', collection: @article.comments %>
